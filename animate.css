@@ -1,0 +1,919 @@
+/*
+LOGIN BOX
+*/
+
+.loginBoxIn{
+	animation-duration:3s;
+	-webkit-animation-duration:3s;
+	animation-name: loginboxin;
+	-webkit-animation-name: loginboxin;
+	visibility:visible;
+}
+.loginBoxOut{
+	animation-duration:3s;
+	-webkit-animation-duration:3s;
+	animation-name: loginboxout;
+	-webkit-animation-name: loginboxout;
+}
+@keyframes loginboxin{
+	from{
+		margin-top:2000px;
+		visibility:visible;
+	}
+	
+	to{
+		margin-top:0px;
+		visibility:visible;
+	}
+}
+@-webkit-keyframes loginboxin{
+	from{
+		margin-top:2000px;
+		visibility:visible;
+	}
+	
+	to{
+		margin-top:0px;
+		visibility:visible;
+	}
+}
+@keyframes loginboxout{
+	from{
+		margin-top:0;
+		visibility:visible;
+	}
+	
+	to{
+		margin-top:-100%;
+		
+		visibility:visible;
+	}
+}
+@-webkit-keyframes loginboxout{
+	from{
+		margin-top:0;
+		visibility:visible;
+	}
+	
+	to{
+		margin-top:-100%;
+		visibility:visible;
+	}
+}
+
+/*
+HEADER
+(Date and current/upcoming classes)
+*/
+
+.headerIn{
+	animation-duration:3s;
+	-webkit-animation-duration:3s;
+	animation-name: headerin;
+	-webkit-animation-name: headerin;
+	visibility:visible;
+}
+.headerOut{
+	animation-duration:3s;
+	-webkit-animation-duration:3s;
+	animation-name: headerout;
+	-webkit-animation-name: headerout;
+}
+
+@keyframes headerin{
+	from{
+		margin-left:-200%;
+	}
+	
+	to{
+		margin-left:0%;
+	}
+}
+@keyframes headerout{
+	from{
+		margin-left:0%;
+	}
+	
+	to{
+		margin-left:-200%;
+	}
+}
+@-webkit-keyframes headerin{
+	from{
+		margin-left:-200%;
+	}
+	
+	to{
+		margin-left:0%;
+	}
+}
+@-webkit-keyframes headerout{
+	from{
+		margin-left:0%;
+	}
+	
+	to{
+		margin-left:-200%;
+	}
+}
+
+
+.navBarIn{
+	animation-duration:3s;
+	-webkit-animation-duration:3s;
+	animation-name: navBarin;
+	-webkit-animation-name: navBarin;
+	visibility:visible;
+}
+.navBarOut{
+	animation-duration:3s;
+	-webkit-animation-duration:3s;
+	animation-name: navBarout;
+	-webkit-animation-name: navBarout;
+}
+
+@keyframes navBarin{
+	from{
+		margin-top:-2000px;
+	}
+	
+	to{
+		margin-top:31px;
+	}
+}
+@keyframes navBarout{
+	from{
+		margin-top:31px;
+	}
+	
+	to{
+		margin-top:-2000px;
+	}
+}
+@-webkit-keyframes navBarin{
+	from{
+		margin-top:-2000px;
+	}
+	
+	to{
+		margin-top:31px;
+	}
+}
+@-webkit-keyframes navBarout{
+	from{
+		margin-top:31px;
+	}
+	
+	to{
+		margin-top:-2000px;
+	}
+}
+
+.subNavIn{
+	animation-duration:3s;
+	-webkit-animation-duration:3s;
+	animation-name: subNavin;
+	-webkit-animation-name: subNavin;
+	visibility:visible;
+}
+.subNavInBeginning{
+	animation-duration:3s;
+	-webkit-animation-duration:3s;
+	animation-name: subNavinBeginning;
+	-webkit-animation-name: subNavinBeginning;
+	visibility:visible;
+}
+
+.subNavOut{
+	animation-duration:3s;
+	-webkit-animation-duration:3s;
+	animation-name: subNavout;
+	-webkit-animation-name: subNavout;
+}
+
+@keyframes subNavin{
+	from{
+		margin-left:200%;
+	}
+	to{
+		margin-left:0%;
+	}
+}
+@keyframes subNavinBeginning{
+	from{
+		margin-left:200%;
+	}
+	to{
+		margin-left:0%;
+	}
+}
+@keyframes subNavout{
+	from{
+		margin-left:0%;
+	}
+	
+	to{
+		margin-left:200%;
+	}
+}
+@-webkit-keyframes subNavin{
+	from{
+		margin-left:200%;
+	}
+	50%{
+		margin-left:200%;
+	}
+	to{
+		margin-left:0%;
+	}
+}
+@-webkit-keyframes subNavinBeginning{
+	from{
+		margin-left:200%;
+	}
+	to{
+		margin-left:0%;
+	}
+}
+@-webkit-keyframes subNavout{
+	from{
+		margin-left:0%;
+	}
+	
+	to{
+		margin-left:200%;
+	}
+}
+
+
+.contentIn{
+	animation-duration:3s;
+	-webkit-animation-duration:3s;
+	animation-name: contentin;
+	-webkit-animation-name: contentin;
+	visibility:visible;
+}
+.contentOut{
+	animation-duration:6s;
+	-webkit-animation-duration:6s;
+	animation-name: contentout;
+	-webkit-animation-name: contentout;
+}
+
+@keyframes contentin{
+	from{
+		top:2200px;
+	}
+	
+	50%{
+		top:2200px;
+	}
+	to{
+		top:222px;
+	}
+}
+@keyframes contentout{
+	from{
+		top:222px;
+	}
+	
+	to{
+		top:2200px;
+	}
+}
+
+@-webkit-keyframes contentin{
+	from{
+		top:2200px;
+	}
+	
+	50%{
+		top:2200px;
+	}
+
+	to{
+		top:222px;
+	}
+}
+@-webkit-keyframes contentout{
+	from{
+		top:222px;
+	}
+	
+	to{
+		top:2200px;
+	}
+}
+
+
+.contentInBeginning{
+	animation-duration:3s;
+	-webkit-animation-duration:3s;
+	animation-name: contentinbeginning;
+	-webkit-animation-name: contentinbeginning;
+	visibility:visible;
+}
+@keyframes contentinbeginning{
+	from{
+		top:2200px;
+	}
+	
+	to{
+		top:222px;
+	}
+}
+
+@-webkit-keyframes contentinbeginning{
+	from{
+		top:2200px;
+	}
+	
+	to{
+		top:222px;
+	}
+}
+
+
+/*Courses*/
+
+
+
+.course1In{
+	animation-duration:3s;
+	-webkit-animation-duration:3s;
+	animation-name: courseonein;
+	-webkit-animation-name: courseonein;
+	visibility:visible;
+}
+.course1Out{
+	animation-duration:3s;
+	-webkit-animation-duration:3s;
+	animation-name: courseoneout;
+	-webkit-animation-name: courseoneout;
+}
+
+@keyframes courseonein{
+	from{
+		margin-left:-220%;width:1%;
+	}
+	
+	1%{
+		margin-left:-220%;width:1%;
+	}
+	to{
+		margin-left:0%;width:100%;
+	}
+}
+@keyframes courseoneout{
+	from{
+		margin-top:17%;
+	}
+	
+	to{
+		margin-top:217%;
+	}
+}
+
+@-webkit-keyframes courseonein{
+	from{
+		margin-left:-220%;width:1%;
+	}
+	
+	1%{
+		margin-left:-220%;width:1%;
+	}
+	to{
+		margin-left:0%;width:100%;
+	}
+}
+@-webkit-keyframes courseoneout{
+	from{
+		margin-top:17%;
+	}
+	
+	to{
+		margin-top:217%;
+	}
+}
+
+.course2In{
+	animation-duration:3s;
+	-webkit-animation-duration:3s;
+	animation-name: coursetwoin;
+	-webkit-animation-name: coursetwoin;
+	visibility:visible;
+}
+.course2Out{
+	animation-duration:3s;
+	-webkit-animation-duration:3s;
+	animation-name: coursetwoout;
+	-webkit-animation-name: coursetwoout;
+}
+
+@keyframes coursetwoin{
+	from{
+		margin-left:-220%;width:1%;
+	}
+	
+	11%{
+		margin-left:-220%;width:1%;
+	}
+	to{
+		margin-left:0%;width:100%;
+	}
+}
+@keyframes coursetwoout{
+	from{
+		margin-top:17%;
+	}
+	
+	to{
+		margin-top:217%;
+	}
+}
+
+@-webkit-keyframes coursetwoin{
+	from{
+		margin-left:-220%;width:1%;
+	}
+	
+	11%{
+		margin-left:-220%;width:1%;
+	}
+	to{
+		margin-left:0%;width:100%;
+	}
+}
+@-webkit-keyframes coursetwoout{
+	from{
+		margin-top:17%;
+	}
+	
+	to{
+		margin-top:217%;
+	}
+}
+
+.course3In{
+	animation-duration:3s;
+	-webkit-animation-duration:3s;
+	animation-name: coursethreein;
+	-webkit-animation-name: coursethreein;
+	visibility:visible;
+}
+.course3Out{
+	animation-duration:3s;
+	-webkit-animation-duration:3s;
+	animation-name: coursethreeout;
+	-webkit-animation-name: coursethreeout;
+}
+
+@keyframes coursethreein{
+	from{
+		margin-left:-220%;width:1%;
+	}
+	
+	21%{
+		margin-left:-220%;width:1%;
+	}
+	to{
+		margin-left:0%;width:100%;
+	}
+}
+@keyframes coursethreeout{
+	from{
+		margin-top:17%;
+	}
+	
+	to{
+		margin-top:217%;
+	}
+}
+
+
+@-webkit-keyframes coursethreein{
+	from{
+		margin-left:-220%;width:1%;
+	}
+	
+	21%{
+		margin-left:-220%;width:1%;
+	}
+	to{
+		margin-left:0%;width:100%;
+	}
+}
+@-webkit-keyframes coursethreeout{
+	from{
+		margin-top:17%;
+	}
+	
+	to{
+		margin-top:217%;
+	}
+}
+
+.course4In{
+	animation-duration:3s;
+	-webkit-animation-duration:3s;
+	animation-name: coursefourin;
+	-webkit-animation-name: coursefourin;
+	visibility:visible;
+}
+.course4Out{
+	animation-duration:3s;
+	-webkit-animation-duration:3s;
+	animation-name: coursefourout;
+	-webkit-animation-name: coursefourout;
+}
+
+@keyframes coursefourin{
+	from{
+		margin-left:-220%;width:1%;
+	}
+	
+	31%{
+		margin-left:-220%;width:1%;
+	}
+	to{
+		margin-left:0%;width:100%;
+	}
+}
+@keyframes coursefourout{
+	from{
+		margin-top:17%;
+	}
+	
+	to{
+		margin-top:217%;
+	}
+}
+
+@-webkit-keyframes coursefourin{
+	from{
+		margin-left:-220%;width:1%;
+	}
+	
+	31%{
+		margin-left:-220%;width:1%;
+	}
+	to{
+		margin-left:0%;width:100%;
+	}
+}
+@-webkit-keyframes coursefourout{
+	from{
+		margin-top:17%;
+	}
+	
+	to{
+		margin-top:217%;
+	}
+}
+
+.course5In{
+	animation-duration:3s;
+	-webkit-animation-duration:3s;
+	animation-name: coursefivein;
+	-webkit-animation-name: coursefivein;
+	visibility:visible;
+}
+.course5Out{
+	animation-duration:3s;
+	-webkit-animation-duration:3s;
+	animation-name: coursefiveout;
+	-webkit-animation-name: coursefiveout;
+}
+
+@keyframes coursefivein{
+	from{
+		margin-left:-220%;width:1%;
+	}
+	
+	41%{
+		margin-left:-220%;width:1%;
+	}
+	to{
+		margin-left:0%;width:100%;
+	}
+}
+@keyframes coursefiveout{
+	from{
+		margin-top:17%;
+	}
+	
+	to{
+		margin-top:217%;
+	}
+}
+
+@-webkit-keyframes coursefivein{
+	from{
+		margin-left:-220%;width:1%;
+	}
+	
+	41%{
+		margin-left:-220%;width:1%;
+	}
+	to{
+		margin-left:0%;width:100%;
+	}
+}
+@-webkit-keyframes coursefiveout{
+	from{
+		margin-top:17%;
+	}
+	
+	to{
+		margin-top:217%;
+	}
+}
+.course6In{
+	animation-duration:3s;
+	-webkit-animation-duration:3s;
+	animation-name: coursesixin;
+	-webkit-animation-name: coursesixin;
+	visibility:visible;
+}
+.course6Out{
+	animation-duration:3s;
+	-webkit-animation-duration:3s;
+	animation-name: coursesixout;
+	-webkit-animation-name: coursesixout;
+}
+
+@keyframes coursesixin{
+	from{
+		margin-left:-220%;width:1%;
+	}
+	
+	51%{
+		margin-left:-220%;width:1%;
+	}
+	to{
+		margin-left:0%;width:100%;
+	}
+}
+@keyframes coursesixout{
+	from{
+		margin-top:17%;
+	}
+	
+	to{
+		margin-top:217%;
+	}
+}
+
+@-webkit-eyframes coursesixin{
+	from{
+		margin-left:-220%;width:1%;
+	}
+	
+	51%{
+		margin-left:-220%;width:1%;
+	}
+	to{
+		margin-left:0%;width:100%;
+	}
+}
+@-webkit-keyframes coursesixout{
+	from{
+		margin-top:17%;
+	}
+	
+	to{
+		margin-top:217%;
+	}
+}
+.course7In{
+	animation-duration:3s;
+	-webkit-animation-duration:3s;
+	animation-name: coursesevenin;
+	-webkit-animation-name: coursesevenin;
+	visibility:visible;
+}
+.course7Out{
+	animation-duration:3s;
+	-webkit-animation-duration:3s;
+	animation-name: coursesevenout;
+	-webkit-animation-name: coursesevenout;
+}
+
+@keyframes coursesevenin{
+	from{
+		margin-left:-220%;width:1%;
+	}
+	
+	61%{
+		margin-left:-220%;width:1%;
+	}
+	to{
+		margin-left:0%;width:100%;
+	}
+}
+@keyframes coursesevenout{
+	from{
+		margin-top:17%;
+	}
+	
+	to{
+		margin-top:217%;
+	}
+}
+
+@-webkit-keyframes coursesevenin{
+	from{
+		margin-left:-220%;width:1%;
+	}
+	
+	61%{
+		margin-left:-220%;width:1%;
+	}
+	to{
+		margin-left:0%;width:100%;
+	}
+}
+@-webkit-keyframes coursesevenout{
+	from{
+		margin-top:17%;
+	}
+	
+	to{
+		margin-top:217%;
+	}
+}
+
+
+.course8In{
+	animation-duration:3s;
+	-webkit-animation-duration:3s;
+	animation-name: courseeightin;
+	-webkit-animation-name: courseeightin;
+	visibility:visible;
+}
+.course8Out{
+	animation-duration:3s;
+	-webkit-animation-duration:3s;
+	animation-name: courseeightout;
+	-webkit-animation-name: courseeightout;
+}
+
+@keyframes courseeightin{
+	from{
+		margin-left:-220%;width:1%;
+	}
+	
+	71%{
+		margin-left:-220%;width:1%;
+	}
+	to{
+		margin-left:0%;width:100%;
+	}
+}
+@keyframes courseeightout{
+	from{
+		margin-top:17%;
+	}
+	
+	to{
+		margin-top:217%;
+	}
+}
+
+@-webkit-keyframes courseeightin{
+	from{
+		margin-left:-220%;width:1%;
+	}
+	
+	71%{
+		margin-left:-220%;width:1%;
+	}
+	to{
+		margin-left:0%;width:100%;
+	}
+}
+@-webkit-keyframes courseeightout{
+	from{
+		margin-top:17%;
+	}
+	
+	to{
+		margin-top:217%;
+	}
+}
+
+.course9In{
+	animation-duration:3s;
+	-webkit-animation-duration:3s;
+	animation-name: courseninein;
+	-webkit-animation-name: courseninein;
+	visibility:visible;
+}
+.course9Out{
+	animation-duration:3s;
+	-webkit-animation-duration:3s;
+	animation-name: coursenineout;
+	-webkit-animation-name: coursenineout;
+}
+
+@keyframes courseninein{
+	from{
+		margin-left:-220%;width:1%;
+	}
+	
+	81%{
+		margin-left:-220%;width:1%;
+	}
+	to{
+		margin-left:0%;width:100%;
+	}
+}
+@keyframes coursenineout{
+	from{
+		margin-top:17%;
+	}
+	
+	to{
+		margin-top:217%;
+	}
+}
+
+@-webkit-keyframes courseninein{
+	from{
+		margin-left:-220%;width:1%;
+	}
+	
+	81%{
+		margin-left:-220%;width:1%;
+	}
+	to{
+		margin-left:0%;width:100%;
+	}
+}
+@-webkit-keyframes coursenineout{
+	from{
+		margin-top:17%;
+	}
+	
+	to{
+		margin-top:217%;
+	}
+}
+
+.course10In{
+	animation-duration:3s;
+	-webkit-animation-duration:3s;
+	animation-name: coursetenin;
+	-webkit-animation-name: coursetenin;
+	visibility:visible;
+}
+.course10Out{
+	animation-duration:3s;
+	-webkit-animation-duration:3s;
+	animation-name: coursetenout;
+	-webkit-animation-name: coursetenout;
+}
+
+@keyframes coursetenin{
+	from{
+		margin-left:-220%;width:1%;
+	}
+	
+	91%{
+		margin-left:-220%;width:1%;
+	}
+	to{
+		margin-left:0%;width:100%;
+	}
+}
+@keyframes coursetenout{
+	from{
+		margin-top:17%;
+	}
+	
+	to{
+		margin-top:217%;
+	}
+}
+
+@-webkit-keyframes coursetenin{
+	from{
+		margin-left:-220%;width:1%;
+	}
+	
+	91%{
+		margin-left:-220%;width:1%;
+	}
+	to{
+		margin-left:0%;width:100%;
+	}
+}
+@-webkit-keyframes coursetenout{
+	from{
+		margin-top:17%;
+	}
+	
+	to{
+		margin-top:217%;
+	}
+}

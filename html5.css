@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "idealist";
+    src: url("idealist.otf");
+}
+@font-face {
+    font-family: "code";
+    src: url("CodeLight.otf");
+}
+
+body{
+font-family:'idealist';
+font-weight:100;
+font-size:160px;
+}

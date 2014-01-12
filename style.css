@@ -1,0 +1,315 @@
+html,body { height:100%; }
+html{
+height:100%;
+}
+body{
+	overflow:hidden;
+height:100%;
+transform: translate3d(0,0,0);
+}
+
+#nojs{
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#nojsp{
+	display:table;
+	font-size:36px;
+	font-family:oxygen;
+	margin-left:auto;
+	margin-right:auto;
+}
+#courseH1{
+	background:#ff0000;
+border-top-left-radius:3px;
+border-top-right-radius:3px;
+}
+#courseB1{
+	background:#ffcfcf;
+border-bottom-left-radius:3px;
+border-bottom-right-radius:3px;
+
+}
+#courseH2{
+	background:#ffba00;
+border-top-left-radius:3px;
+border-top-right-radius:3px;
+}
+#courseB2{
+	background:#ffeebf;
+border-bottom-left-radius:3px;
+border-bottom-right-radius:3px;
+
+}
+#courseH3{
+	background:#f6ff00;
+border-top-left-radius:3px;
+border-top-right-radius:3px;
+}
+#courseB3{
+	background:#feffe5;
+border-bottom-left-radius:3px;
+border-bottom-right-radius:3px;
+
+}
+#courseH4{
+	background:#84ff00;
+border-top-left-radius:3px;
+border-top-right-radius:3px;
+}
+#courseB4{
+	background:#e0ffbe;
+border-bottom-left-radius:3px;
+border-bottom-right-radius:3px;
+
+}
+#courseH5{
+	background:#00ffe4;
+border-top-left-radius:3px;
+border-top-right-radius:3px;
+}
+#courseB5{
+	background:#d5fffb;
+border-bottom-left-radius:3px;
+border-bottom-right-radius:3px;
+
+}
+#courseH6{
+	background:#008aff;
+border-top-left-radius:3px;
+border-top-right-radius:3px;
+}
+#courseB6{
+	background:#d3ebff;
+border-bottom-left-radius:3px;
+border-bottom-right-radius:3px;
+
+}
+#courseH7{
+	background:#0000ff;
+border-top-left-radius:3px;
+border-top-right-radius:3px;
+}
+#courseB7{
+	background:#e3e3ff;
+border-bottom-left-radius:3px;
+border-bottom-right-radius:3px;
+
+}
+#courseH8{
+	background:#6c00ff;
+border-top-left-radius:3px;
+border-top-right-radius:3px;
+}
+#courseB8{
+	background:#eadbff;
+border-bottom-left-radius:3px;
+border-bottom-right-radius:3px;
+
+}
+#courseH9{
+	background:#cc00ff;
+border-top-left-radius:3px;
+border-top-right-radius:3px;
+}
+#courseB9{
+	background:#f8ddff;
+border-bottom-left-radius:3px;
+border-bottom-right-radius:3px;
+
+}
+#courseH10{
+	background:#ff00e4;
+border-top-left-radius:3px;
+border-top-right-radius:3px;
+}
+#courseB10{
+	background:#ffe6fc;
+border-bottom-left-radius:3px;
+border-bottom-right-radius:3px;
+}
+
+
+/*Calendar*/
+.contentmain{
+	margin-left: auto;
+	margin-right:auto;
+	width:63%;
+	height:67%;
+	top: 2220px;
+	position: relative;
+}
+
+/*Calendar*/
+.DoW{
+	font-size:20px;
+	height:6%;
+	max-height:30px;
+	background:#ff0000;
+	width:14.28%;
+	float:left;
+	padding-top:1px;
+	padding-bottom:3px;
+}
+#sun{
+	border-top-left-radius:10px;
+}
+#sat{
+	border-top-right-radius:10px;
+}
+.dowFloat{
+	display:table;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+.dayMinor{
+	overflow:auto;
+	width:14.28%;
+	height:15.66%;
+	float:left;
+	background:#dfdfdf;
+}
+.dayMajor{
+	overflow:auto;
+	width:14.28%;
+	height:15.66%;
+	float:left;
+	background:#eeeeee;
+}
+.dayMarker{
+	margin-left:3px;
+	margin-top:2px;
+	font-size:16px;
+}
+/*
+Login
+*/
+#login{
+	visibility:hidden;
+	height:40%;
+	display:table;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#welcome{
+	display:table;
+	font-size:36px;
+	font-family:oxygen;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#plslog{
+	display:table;
+	font-size:30px;
+	font-family:oxygen;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#logerror{
+	visibility:hidden;
+	background:#ff0000;
+	font-family:oxygen;
+	font-size:16px;
+	display:table;
+	padding:4px;
+	border-radius:5px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#loginforms{
+	width:650px;
+	display:table;
+	padding:10px;
+	font-family:oxygen;
+	font-size:24px;
+	background:#dfdfdf;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:5px;
+}
+
+#formlogin{
+	width:320px;
+	float:left;
+}
+
+#logtext{
+	display:table;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#loginform{
+	margin-left:3px;
+	float:left;
+	padding:5px;
+	margin-top:-5px;
+}
+
+#headerdate{
+	font-size:36px;
+	text-align:center;
+	display:table;
+	margin-left:auto;
+	margin-right:auto;
+	padding:10px;
+	margin-top:-10px;
+}
+
+/*
+Setup
+*/
+
+#setup{
+	visibility:hidden;
+	width:100%;
+	height:100%;
+	background:#dfdfdf;
+	font-family:oxygen;
+	font-size:24px;
+}
+
+.setupstep{
+	width:25%;
+	height:50px;
+	background:#cdcdcd;
+	float:left;
+}
+
+.stpmarks{
+	width:25%;
+	height:5px;
+	margin-top:-2px;
+	background:#0095FF;
+	background:#0066D4;
+	float:left;
+}
+.stpmarku{
+	width:25%;
+	height:3px;
+	margin-top:0px;
+	background:#001AB0;
+	background:#0066D4;
+	float:left;
+}
+
+#stptext{
+	display:table;
+	margin-top:8px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.stppage{
+	margin-top:75px;
+	width:100%;
+	height:100%;
+	position:absolute;
+}

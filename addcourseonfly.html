@@ -1,0 +1,22 @@
+<script src="core.js"></script><script type="text/javascript" language="Javascript" 	src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script><table border="0" style="float:left;width:500px;">
+	<tr>
+	<td style="width:20%"><p style="display:table;margin-left:auto;margin-right:auto;">Name</p></td>
+	<td style="width:15%"><p style="display:table;margin-left:auto;margin-right:auto;">Monday</p></td>
+	<td style="width:15%"><p style="display:table;margin-left:auto;margin-right:auto;">Tuesday</p></td>
+	<td style="width:15%"><p style="display:table;margin-left:auto;margin-right:auto;">Wednesday</p></td>
+	<td style="width:15%"><p style="display:table;margin-left:auto;margin-right:auto;">Thursday</p></td>
+	<td style="width:15%"><p style="display:table;margin-left:auto;margin-right:auto;">Friday</p></td>
+	</tr>
+	<tr><td><input style='display:table;margin-left:auto;margin-right:auto;' type='text' id='name'></input></td><td><input style='display:table;margin-left:auto;margin-right:auto;' type='checkbox' id='mon'></input></td><td><input style='display:table;margin-left:auto;margin-right:auto;' type='checkbox' id='tue'></input></td><td><input style='display:table;margin-left:auto;margin-right:auto;' type='checkbox' id='wed'></input></td><td><input style='display:table;margin-left:auto;margin-right:auto;' type='checkbox' id='thu'></input></td><td><input style='display:table;margin-left:auto;margin-right:auto;' type='checkbox' id='fri'></input></td></tr>
+</table>
+<button onclick="submitOnFlyCourse()"style="float:left;margin-top:18px;">
+Submit
+</button>
+<script>
+function submitOnFlyCourse(){	var name, mon, tue, wed, thu, fri;
+	var writeVal = document.getElementById("name").value + "/i/" + checkToNum("mon") + "/i/" + checkToNum("tue") + "/i/" + checkToNum("wed") + "/i/" + checkToNum("thu") + "/i/" + checkToNum("fri")+"/i/1/i/";
+	
+	parent.postMessage("closeaddcourse","http://schedule.16skittles.tk");
+	parent.postMessage(writeVal,"http://schedule.16skittles.tk");
+}
+</script>

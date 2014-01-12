@@ -1,0 +1,29 @@
+.animatein{
+	animation-duration: 3s;
+	animation-name: slidein;
+}
+
+.animateout{
+	animation-duration: 3s;
+	animation-name: slideout;
+}
+
+@keyframes slidein {
+  from {
+	margin-left:2000px;
+  }
+
+  to {
+    margin-left:0px;
+  }
+}
+
+@keyframes slideout {
+  from {
+    margin-left: 0px;
+  }
+
+  to {	
+    margin-left: 2000px;
+  }
+}
